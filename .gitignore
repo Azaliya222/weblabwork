@@ -1,0 +1,16 @@
+# Ignore bundler config.
+/.bundle
+/lab6/sample_app/.bundle
+
+# Ignore logfiles and tempfiles
+/log/*
+/tmp/*
+/lab6/sample_app/log/*
+/lab6/sample_app/tmp/*
+
+# Ignore database files
+*.sqlite3
+
+# Ignore master key for decrypting credentials
+/config/master.key
+/lab6/sample_app/config/master.key
